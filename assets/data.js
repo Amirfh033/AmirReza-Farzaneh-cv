@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T14:10:05.651Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:11:12.939Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -163,9 +163,9 @@ window.SITE_DEFAULT_DATA = {
   ],
   "projects": [
     {
-      "title": "USDFM (",
+      "title": "USDFM (An UltraSound Speckle-Diffusion FoundationModel)",
       "tag": "Medical imaging",
-      "note": "An UltraSound Speckle-Diffusion FoundationModelhttps://github.com/Amirfh033/usdfm"
+      "note": "https://github.com/Amirfh033/usdfm"
     },
     {
       "title": "Single-Channel EEG Seizure Prediction with an Ultra-Light CNN",
@@ -185,7 +185,7 @@ window.SITE_DEFAULT_DATA = {
     {
       "title": "Real-Time Revenue Analytics Pipeline",
       "tag": "Data engineering",
-      "note": "Apache Spark Structured Streaming with MinIO."
+      "note": "Apache Spark Structured Streaming with MinIO.https://github.com/Amirfh033/ref_sms_streaming"
     },
     {
       "title": "Intelligent Product Taxonomy Prediction",
