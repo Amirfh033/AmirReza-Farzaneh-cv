@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T14:06:38.445Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:07:42.698Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -168,9 +168,9 @@ window.SITE_DEFAULT_DATA = {
       "note": "An UltraSound Speckle-Diffusion FoundationModelhttps://github.com/Amirfh033/usdfm"
     },
     {
-      "title": "Real-Time Revenue Analytics Pipeline",
+      "title": "Single-Channel EEG Seizure Prediction with an Ultra-Light CNN",
       "tag": "Signal processing",
-      "note": "Apache Spark Structured Streaming with MinIO."
+      "note": "https://github.com/Amirfh033/seizure-prediction"
     },
     {
       "title": "LQR Controller for a Fractional-Order SEIR Model",
