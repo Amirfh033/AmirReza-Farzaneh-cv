@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:59:33.249Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:01:16.763Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -164,8 +164,8 @@ window.SITE_DEFAULT_DATA = {
   "projects": [
     {
       "title": "USDFM",
-      "tag": "Backend & infra",
-      "note": "FastAPI, PostgreSQL, Redis and Kafka, containerized with Docker."
+      "tag": "Research",
+      "note": "An UltraSound Speckle-Di\u001busion FoundationModel"
     },
     {
       "title": "Real-Time Revenue Analytics Pipeline",
