@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T14:03:52.504Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:04:56.322Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -183,9 +183,9 @@ window.SITE_DEFAULT_DATA = {
       "note": "Sequence anomaly detection using HMMs."
     },
     {
-      "title": "Visual Product Understanding & Category Classification",
+      "title": "Real-Time Revenue Analytics Pipeline",
       "tag": "Machine learning",
-      "note": "Deep neural networks for product image classification."
+      "note": "Apache Spark Structured Streaming with MinIO."
     },
     {
       "title": "Intelligent Product Taxonomy Prediction",
@@ -236,6 +236,11 @@ window.SITE_DEFAULT_DATA = {
       "title": "Scalable Country Code Lookup Service",
       "tag": "Backend & infra",
       "note": "ShorFastAPI, PostgreSQL, Redis and Kafka, containerized with Docker.t description of the project."
+    },
+    {
+      "title": "Cache Replacement Policy in ChampSim",
+      "tag": "Computer architecture",
+      "note": "Short description of the project.Design and evaluation of a custom cache replacement policy."
     }
   ],
   "research": [
