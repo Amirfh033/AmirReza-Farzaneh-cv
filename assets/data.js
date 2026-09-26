@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T14:02:17.109Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:03:52.504Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -164,7 +164,7 @@ window.SITE_DEFAULT_DATA = {
   "projects": [
     {
       "title": "USDFM",
-      "tag": "Self Research",
+      "tag": "Medical imaging",
       "note": "An UltraSound Speckle-Diffusion FoundationModelhttps://github.com/Amirfh033/usdfm"
     },
     {
