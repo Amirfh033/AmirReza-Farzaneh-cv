@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:39:20.497Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:41:09.144Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -11,7 +11,7 @@ window.SITE_DEFAULT_DATA = {
     "photo": "assets/profile.png"
   },
   "about": {
-    "body": "I'm an Electrical Engineering student in the Control track at Sharif University of Technology, working across control theory, machine learning and telecom infrastructure. My recent work spans superconducting-laboratory instrumentation, mobile network engineering at Irancell Labs, and independent projects in applied machine learning and systems programming. I'm looking for research collaborations, internships and laboratory placements where I can bring that mix of theory and hands-on engineering.",
+    "body": "Electrical Engineering (Control) student at Sharif University of Technology developing a research profile at the intersection of Biomedical Engineering, Medical Imaging, Biomedical Signal Processing, Deep Learning, Computer Vision, and Neuroscience. Research experience includes medical image analysis and ultrasound imaging, supported by hands-on projects in EEG/EMG signal analysis, machine learning, deep learning, control, and data-driven systems. Experienced in both academic and industrial environments, including telecommunications engineering and laboratory data analysis.Seeking a research internship / visiting research opportunity for Summer 2027 in biomedical AI, medical imaging, or related areas.",
     "facts": [
       {
         "label": "Based in",
