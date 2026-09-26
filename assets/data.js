@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:55:19.274Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:56:23.891Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -233,7 +233,7 @@ window.SITE_DEFAULT_DATA = {
       "note": "A game built in C++."
     },
     {
-      "title": "",
+      "title": "New project",
       "tag": "Category",
       "note": "Short description of the project."
     }
