@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T14:11:12.939Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:12:15.046Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -205,7 +205,7 @@ window.SITE_DEFAULT_DATA = {
     {
       "title": "Scalable Country Code Lookup Service",
       "tag": "Backend & infra",
-      "note": "ShorFastAPI, PostgreSQL, Redis and Kafka, containerized with Docker.t description of the project."
+      "note": "ShorFastAPI, PostgreSQL, Redis and Kafka, containerized with Docker.t description of the project.https://github.com/Amirfh033/Feri"
     },
     {
       "title": "QAM Digital Modulation Simulation",
