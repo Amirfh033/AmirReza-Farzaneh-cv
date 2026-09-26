@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T14:07:42.698Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:08:55.916Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -203,9 +203,9 @@ window.SITE_DEFAULT_DATA = {
       "note": "Spectral entropy-based features, implemented in MATLAB."
     },
     {
-      "title": "Cache Replacement Policy in ChampSim",
-      "tag": "Computer architecture",
-      "note": "Design and evaluation of a custom cache replacement policy."
+      "title": "Scalable Country Code Lookup Service",
+      "tag": "Backend & infra",
+      "note": "ShorFastAPI, PostgreSQL, Redis and Kafka, containerized with Docker.t description of the project."
     },
     {
       "title": "QAM Digital Modulation Simulation",
@@ -231,11 +231,6 @@ window.SITE_DEFAULT_DATA = {
       "title": "Jungle Marble Blast",
       "tag": "Game development",
       "note": "A game built in C++."
-    },
-    {
-      "title": "Scalable Country Code Lookup Service",
-      "tag": "Backend & infra",
-      "note": "ShorFastAPI, PostgreSQL, Redis and Kafka, containerized with Docker.t description of the project."
     },
     {
       "title": "Cache Replacement Policy in ChampSim",
