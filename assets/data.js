@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:58:31.498Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:59:33.249Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -163,7 +163,7 @@ window.SITE_DEFAULT_DATA = {
   ],
   "projects": [
     {
-      "title": "Scalable Country Code Lookup Service",
+      "title": "USDFM",
       "tag": "Backend & infra",
       "note": "FastAPI, PostgreSQL, Redis and Kafka, containerized with Docker."
     },
