@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:52:47.722Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:55:19.274Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -157,8 +157,8 @@ window.SITE_DEFAULT_DATA = {
       "grade": "in progress"
     },
     {
-      "course": "Bioinstrument(cu",
-      "grade": "0.0"
+      "course": "Bioinstrument (current coursework)",
+      "grade": "in progress"
     }
   ],
   "projects": [
@@ -233,7 +233,7 @@ window.SITE_DEFAULT_DATA = {
       "note": "A game built in C++."
     },
     {
-      "title": "usdfm",
+      "title": "",
       "tag": "Category",
       "note": "Short description of the project."
     }
