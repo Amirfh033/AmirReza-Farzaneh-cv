@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T14:04:56.322Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:06:38.445Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -169,7 +169,7 @@ window.SITE_DEFAULT_DATA = {
     },
     {
       "title": "Real-Time Revenue Analytics Pipeline",
-      "tag": "Data engineering",
+      "tag": "Signal processing",
       "note": "Apache Spark Structured Streaming with MinIO."
     },
     {
@@ -184,7 +184,7 @@ window.SITE_DEFAULT_DATA = {
     },
     {
       "title": "Real-Time Revenue Analytics Pipeline",
-      "tag": "Machine learning",
+      "tag": "Data engineering",
       "note": "Apache Spark Structured Streaming with MinIO."
     },
     {
