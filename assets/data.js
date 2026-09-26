@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:56:23.891Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:57:28.813Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -231,11 +231,6 @@ window.SITE_DEFAULT_DATA = {
       "title": "Jungle Marble Blast",
       "tag": "Game development",
       "note": "A game built in C++."
-    },
-    {
-      "title": "New project",
-      "tag": "Category",
-      "note": "Short description of the project."
     }
   ],
   "research": [
