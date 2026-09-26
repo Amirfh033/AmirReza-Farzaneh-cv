@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:17:19.990Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:34:29.171Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -99,8 +99,7 @@ window.SITE_DEFAULT_DATA = {
       "items": [
         "CCNA",
         "Cisco Packet Tracer",
-        "NMOS",
-        "Grafana"
+        "NMOS"
       ]
     },
     {
@@ -116,9 +115,7 @@ window.SITE_DEFAULT_DATA = {
       "category": "Additional",
       "items": [
         "Verilog",
-        "LaTeX",
-        "Photoshop",
-        "Premiere"
+        "LaTeX"
       ]
     }
   ],
@@ -146,6 +143,10 @@ window.SITE_DEFAULT_DATA = {
     {
       "course": "Linear Control",
       "grade": "12.0"
+    },
+    {
+      "course": "New course",
+      "grade": "0.0"
     }
   ],
   "projects": [
