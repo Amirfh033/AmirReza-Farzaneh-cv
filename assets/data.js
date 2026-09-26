@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:51:37.797Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:52:47.722Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -145,12 +145,20 @@ window.SITE_DEFAULT_DATA = {
       "grade": "12.0"
     },
     {
-      "course": "Brain and Machine Learning (current course)",
+      "course": "Brain and Machine Learning (current coursework)",
       "grade": "in progress"
     },
     {
       "course": "Neuroscience (current coursework)",
       "grade": "in progress"
+    },
+    {
+      "course": "Deep learning (current coursework)",
+      "grade": "in progress"
+    },
+    {
+      "course": "Bioinstrument(cu",
+      "grade": "0.0"
     }
   ],
   "projects": [
