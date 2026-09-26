@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:34:29.171Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:35:50.371Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -145,8 +145,8 @@ window.SITE_DEFAULT_DATA = {
       "grade": "12.0"
     },
     {
-      "course": "New course",
-      "grade": "0.0"
+      "course": "",
+      "grade": "in progress"
     }
   ],
   "projects": [
