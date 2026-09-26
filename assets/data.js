@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T13:57:28.813Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T13:58:31.498Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -231,6 +231,11 @@ window.SITE_DEFAULT_DATA = {
       "title": "Jungle Marble Blast",
       "tag": "Game development",
       "note": "A game built in C++."
+    },
+    {
+      "title": "Scalable Country Code Lookup Service",
+      "tag": "Backend & infra",
+      "note": "ShorFastAPI, PostgreSQL, Redis and Kafka, containerized with Docker.t description of the project."
     }
   ],
   "research": [
