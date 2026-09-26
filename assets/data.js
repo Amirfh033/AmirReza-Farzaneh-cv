@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-26T14:08:55.916Z */
+/* Site content — last pushed from the admin panel on 2026-09-26T14:10:05.651Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -163,7 +163,7 @@ window.SITE_DEFAULT_DATA = {
   ],
   "projects": [
     {
-      "title": "USDFM",
+      "title": "USDFM (",
       "tag": "Medical imaging",
       "note": "An UltraSound Speckle-Diffusion FoundationModelhttps://github.com/Amirfh033/usdfm"
     },
@@ -175,12 +175,12 @@ window.SITE_DEFAULT_DATA = {
     {
       "title": "LQR Controller for a Fractional-Order SEIR Model",
       "tag": "Control systems",
-      "note": "State-feedback controller and observer with servo disturbance rejection and anti-windup compensation."
+      "note": "State-feedback controller and observer with servo disturbance rejection and anti-windup compensation.https://github.com/Amirfh033/SEIR-Fractional-Epidemic-Model"
     },
     {
       "title": "Hidden Markov Anomaly Detection",
       "tag": "Machine learning",
-      "note": "Sequence anomaly detection using HMMs."
+      "note": "Sequence anomaly detection using HMMs.https://github.com/Amirfh033/hmad_project"
     },
     {
       "title": "Real-Time Revenue Analytics Pipeline",
