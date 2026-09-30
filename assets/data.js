@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:36:23.941Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T09:37:27.773Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -239,7 +239,7 @@ window.SITE_DEFAULT_DATA = {
     },
     {
       "title": "New project",
-      "tag": "Category",
+      "tag": "RAG & AI Agent",
       "note": "Short description of the project."
     }
   ],
