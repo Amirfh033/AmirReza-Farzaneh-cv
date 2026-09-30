@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:28:59.225Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:38:33.631Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
