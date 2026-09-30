@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:26:12.905Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:28:59.225Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -84,7 +84,8 @@ window.SITE_DEFAULT_DATA = {
         "Python",
         "PyTorch",
         "TensorFlow",
-        "RAG"
+        "Scikit-learn",
+        "New skill"
       ]
     },
     {
