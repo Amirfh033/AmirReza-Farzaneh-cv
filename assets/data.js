@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T14:03:43.078Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T14:05:45.730Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -282,12 +282,12 @@ window.SITE_DEFAULT_DATA = {
   "research": [
     {
       "title": "Foundation Models and Vision Transformers in Medical Image Analysis",
-      "collaborators": "with Dr. Azampour and Dr. Nasir Navab",
+      "collaborators": "Research Collaboration with Dr. Mohammad Farid Azampour and Prof. Nassir Navab",
       "status": "In progress"
     },
     {
       "title": "Survey Paper on Ultrasound Imaging",
-      "collaborators": "Co-authored",
+      "collaborators": "• Conducting a systematic review of deep learning methods for ultrasound image analysis. • Comparing recent approaches for ultrasound image segmentation and analysis. • Analyzing evaluation metrics including Dice, IoU, AP50, and mAP.",
       "status": "In progress"
     }
   ],
@@ -321,15 +321,5 @@ window.SITE_DEFAULT_DATA = {
   "honors": [
     "Ranked 85th among 165,000 applicants, Iran National University Entrance Exam"
   ],
-  "customSections": [
-    {
-      "title": "Research Interests",
-      "entries": [
-        {
-          "title": "New item",
-          "note": "Short description."
-        }
-      ]
-    }
-  ]
+  "customSections": []
 };
