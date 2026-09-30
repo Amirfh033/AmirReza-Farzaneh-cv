@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T14:12:01.601Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T15:14:18.115Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -64,7 +64,7 @@ window.SITE_DEFAULT_DATA = {
   "education": [
     {
       "degree": "B.Sc. Electrical Engineering — Control",
-      "institution": "Sharif University of Technology , GPA = 2.6",
+      "institution": "Sharif University of Technology",
       "location": "Tehran, Iran",
       "start": "Sep 2022",
       "end": "Present"
