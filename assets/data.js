@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T14:09:07.907Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T14:12:01.601Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -287,7 +287,7 @@ window.SITE_DEFAULT_DATA = {
     },
     {
       "title": "Survey Paper on Ultrasound Imaging",
-      "collaborators": "• Conducting a systematic review of deep learning methods for ultrasound image analysis. • Comparing recent approaches for ultrasound image segmentation and analysis. • Analyzing evaluation metrics including Dice, IoU, AP50, and mAP.",
+      "collaborators": "Co-author",
       "status": "In progress"
     },
     {
