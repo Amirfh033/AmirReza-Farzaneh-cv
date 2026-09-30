@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T10:00:46.210Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T10:02:56.643Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -92,7 +92,8 @@ window.SITE_DEFAULT_DATA = {
       "category": "Machine learning & AI",
       "items": [
         "Machine Learning",
-        "Deep Learning"
+        "Deep Learning",
+        "New skill"
       ]
     },
     {
