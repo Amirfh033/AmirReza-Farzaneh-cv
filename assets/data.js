@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T12:18:14.212Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T12:22:54.252Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -244,9 +244,9 @@ window.SITE_DEFAULT_DATA = {
       "note": "A game built in C++."
     },
     {
-      "title": "Cache Replacement Policy in ChampSim",
-      "tag": "Computer architecture",
-      "note": "Short description of the project.Design and evaluation of a custom cache replacement policy."
+      "title": "Customer Registration & Classification Automation",
+      "tag": "n8n",
+      "note": "https://github.com/Amirfh033/Customer-registration-AI-classification-automation-n8n-"
     },
     {
       "title": "Company Knowledge RAG & AI Agent",
@@ -254,9 +254,9 @@ window.SITE_DEFAULT_DATA = {
       "note": "https://github.com/Amirfh033/rag-agent-knowledge-assistant"
     },
     {
-      "title": "Customer Registration & Classification Automation",
-      "tag": "n8n",
-      "note": "https://github.com/Amirfh033/Customer-registration-AI-classification-automation-n8n-"
+      "title": "Cache Replacement Policy in ChampSim",
+      "tag": "Computer architecture",
+      "note": "Short description of the project.Design and evaluation of a custom cache replacement policy."
     }
   ],
   "research": [
