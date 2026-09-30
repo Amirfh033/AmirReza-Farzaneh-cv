@@ -434,6 +434,7 @@ h1,h2,h3,h4{
   padding: 0.9rem 0;
   border-bottom: 1px solid var(--line);
 }
+.admin-on .skill-group{ padding-top: 2.1rem; }
 .skill-group:last-child{ border-bottom: none; }
 @media (max-width: 640px){
   .skill-group{ grid-template-columns: 1fr; gap: 0.5rem; }
@@ -504,6 +505,7 @@ h1,h2,h3,h4{
   flex-direction: column;
   gap: 0.55rem;
 }
+.admin-on .project-card{ padding-top: 2.3rem; }
 .project-tag{
   font-family: var(--mono);
   font-size: 0.68rem;
@@ -667,6 +669,32 @@ footer.site-footer{
 }
 .admin-on .admin-remove{ display: block; }
 .is-removable{ position: relative; }
+
+.reorder-controls{
+  display: none;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  gap: 0.25rem;
+}
+.admin-on .reorder-controls{ display: flex; }
+.reorder-btn{
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: var(--radius-s);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.reorder-btn:hover:not(:disabled){ border-color: var(--copper); color: var(--copper-dim); }
+.reorder-btn:disabled{ opacity: 0.3; cursor: not-allowed; }
 
 .chip{ position: relative; display: inline-flex; align-items: center; gap: 0.4rem; }
 .chip-remove{
