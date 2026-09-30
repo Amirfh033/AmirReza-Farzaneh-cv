@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T15:14:18.115Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T15:18:09.766Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -71,7 +71,7 @@ window.SITE_DEFAULT_DATA = {
     },
     {
       "degree": "Diploma, Mathematics and Physics",
-      "institution": "Ostad Shahriyar , GPA = 4",
+      "institution": "Ostad Shahriyar",
       "location": "Tabriz, East Azerbaijan, Iran",
       "start": "Sep 2022",
       "end": "Present"
