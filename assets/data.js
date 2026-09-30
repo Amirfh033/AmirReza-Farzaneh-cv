@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:41:02.526Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T09:42:10.612Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -122,7 +122,8 @@ window.SITE_DEFAULT_DATA = {
       "category": "Automation & Backend",
       "items": [
         "n8n",
-        "New skill"
+        "REST APIs",
+        "Webhooks"
       ]
     }
   ],
