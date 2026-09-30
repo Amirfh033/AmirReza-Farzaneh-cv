@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T14:00:10.498Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T14:01:57.184Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -33,6 +33,13 @@ window.SITE_DEFAULT_DATA = {
   },
   "experience": [
     {
+      "role": "System Controller & Lab Data Analyst",
+      "org": "Dr. Fardmanesh's Superconducting Laboratory",
+      "location": "Tehran, Iran",
+      "start": "Jun 2024",
+      "end": "Oct 2024"
+    },
+    {
       "role": "2G / 3G Optimization",
       "org": "Irancell Labs",
       "location": "Tehran, Iran",
@@ -52,13 +59,6 @@ window.SITE_DEFAULT_DATA = {
       "location": "Tehran, Iran",
       "start": "Sep 2025",
       "end": "Nov 2025"
-    },
-    {
-      "role": "System Controller & Lab Data Analyst",
-      "org": "Dr. Fardmanesh's Superconducting Laboratory",
-      "location": "Tehran, Iran",
-      "start": "Jun 2024",
-      "end": "Oct 2024"
     }
   ],
   "education": [
@@ -321,5 +321,15 @@ window.SITE_DEFAULT_DATA = {
   "honors": [
     "Ranked 85th among 165,000 applicants, Iran National University Entrance Exam"
   ],
-  "customSections": []
+  "customSections": [
+    {
+      "title": "Research Interests",
+      "entries": [
+        {
+          "title": "New item",
+          "note": "Short description."
+        }
+      ]
+    }
+  ]
 };
