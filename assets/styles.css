@@ -362,6 +362,7 @@ h1,h2,h3,h4{
   position: relative;
   padding-bottom: 1.9rem;
 }
+.admin-on .timeline-item{ padding-top: 2rem; }
 .timeline-item:last-child{ padding-bottom: 0; }
 .timeline-item::before{
   content: "";
@@ -414,6 +415,7 @@ h1,h2,h3,h4{
   padding: 1.4rem 1.5rem;
   border-top: 3px solid var(--teal);
 }
+.admin-on .edu-card{ padding-top: 2.6rem; }
 .edu-degree{ font-weight: 600; font-size: 1.02rem; }
 .edu-inst{ color: var(--teal-dim); margin-top: 0.3rem; font-size: 0.95rem; }
 .edu-loc{ color: var(--muted); font-size: 0.85rem; margin-top: 0.2rem; }
@@ -590,6 +592,20 @@ h1,h2,h3,h4{
 .lang-scores{ font-family: var(--mono); color: var(--muted); font-size: 0.82rem; }
 
 /* =========================================================
+   Custom sections (added via the admin panel)
+   ========================================================= */
+.custom-section{ position: relative; }
+.custom-section .admin-remove.custom-section-remove{
+  top: 1.6rem;
+  right: var(--gutter);
+}
+.custom-section .reorder-controls.custom-section-reorder{
+  top: 1.6rem;
+  left: var(--gutter);
+}
+.admin-on .custom-section .section-head{ margin-top: 1.6rem; }
+
+/* =========================================================
    Contact / footer
    ========================================================= */
 .contact-cta{
@@ -731,6 +747,26 @@ footer.site-footer{
   padding: 0 0 0 0.6rem;
 }
 .admin-on .row-remove{ display: inline-block; }
+
+.row-move{
+  display: none;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-s);
+  color: var(--ink-soft);
+  font-size: 0.72rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0.4rem;
+  align-items: center;
+  justify-content: center;
+}
+.admin-on .row-move{ display: inline-flex; }
+.row-move:hover:not(:disabled){ border-color: var(--copper); color: var(--copper-dim); }
+.row-move:disabled{ opacity: 0.3; cursor: not-allowed; }
 
 /* =========================================================
    Admin bar & panel

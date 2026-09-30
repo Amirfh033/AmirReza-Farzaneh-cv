@@ -16,11 +16,14 @@
      Storage
      --------------------------------------------------------- */
   function loadState(){
+    var s = null;
     try{
       var raw = localStorage.getItem(STORAGE_KEY);
-      if(raw) return JSON.parse(raw);
+      if(raw) s = JSON.parse(raw);
     }catch(e){ /* fall through to default */ }
-    return JSON.parse(JSON.stringify(window.SITE_DEFAULT_DATA));
+    if(!s) s = JSON.parse(JSON.stringify(window.SITE_DEFAULT_DATA));
+    if(!s.customSections) s.customSections = []; // upgrade older saved content that predates this feature
+    return s;
   }
 
   function persist(){
@@ -130,8 +133,14 @@
   function renderExperience(){
     var wrap = document.getElementById("experienceList");
     wrap.innerHTML = state.experience.map(function(x, i){
+      var isFirst = i === 0;
+      var isLast = i === state.experience.length - 1;
       return '<div class="timeline-item is-removable">' +
         '<button class="admin-remove" data-remove="experience" data-index="'+i+'" aria-label="Remove entry">×</button>' +
+        '<div class="reorder-controls">' +
+          '<button class="reorder-btn" data-move="experience" data-index="'+i+'" data-dir="up" aria-label="Move entry up"'+(isFirst?' disabled':'')+'>↑</button>' +
+          '<button class="reorder-btn" data-move="experience" data-index="'+i+'" data-dir="down" aria-label="Move entry down"'+(isLast?' disabled':'')+'>↓</button>' +
+        '</div>' +
         '<div class="ti-dates">' +
           '<span class="ed" data-bind="experience.'+i+'.start">'+escapeHtml(x.start)+'</span> — ' +
           '<span class="ed" data-bind="experience.'+i+'.end">'+escapeHtml(x.end)+'</span>' +
@@ -149,8 +158,14 @@
   function renderEducation(){
     var wrap = document.getElementById("educationList");
     wrap.innerHTML = state.education.map(function(x, i){
+      var isFirst = i === 0;
+      var isLast = i === state.education.length - 1;
       return '<div class="edu-card is-removable">' +
         '<button class="admin-remove" data-remove="education" data-index="'+i+'" aria-label="Remove entry">×</button>' +
+        '<div class="reorder-controls">' +
+          '<button class="reorder-btn" data-move="education" data-index="'+i+'" data-dir="up" aria-label="Move entry up"'+(isFirst?' disabled':'')+'>↑</button>' +
+          '<button class="reorder-btn" data-move="education" data-index="'+i+'" data-dir="down" aria-label="Move entry down"'+(isLast?' disabled':'')+'>↓</button>' +
+        '</div>' +
         '<div class="edu-degree ed" data-bind="education.'+i+'.degree">'+escapeHtml(x.degree)+'</div>' +
         '<div class="edu-inst ed" data-bind="education.'+i+'.institution">'+escapeHtml(x.institution)+'</div>' +
         '<div class="edu-loc ed" data-bind="education.'+i+'.location">'+escapeHtml(x.location)+'</div>' +
@@ -196,10 +211,16 @@
   function renderGrades(){
     var wrap = document.getElementById("gradesList");
     wrap.innerHTML = state.grades.map(function(g, i){
+      var isFirst = i === 0;
+      var isLast = i === state.grades.length - 1;
       return '<tr>' +
         '<td class="ed" data-bind="grades.'+i+'.course">'+escapeHtml(g.course)+'</td>' +
         '<td class="grade-val ed" data-bind="grades.'+i+'.grade">'+escapeHtml(g.grade)+'</td>' +
-        '<td><button class="row-remove" data-remove="grades" data-index="'+i+'" aria-label="Remove row">×</button></td>' +
+        '<td>' +
+          '<button class="row-move" data-move="grades" data-index="'+i+'" data-dir="up" aria-label="Move row up"'+(isFirst?' disabled':'')+'>↑</button>' +
+          '<button class="row-move" data-move="grades" data-index="'+i+'" data-dir="down" aria-label="Move row down"'+(isLast?' disabled':'')+'>↓</button>' +
+          '<button class="row-remove" data-remove="grades" data-index="'+i+'" aria-label="Remove row">×</button>' +
+        '</td>' +
       '</tr>';
     }).join("");
   }
@@ -231,12 +252,16 @@
   function renderResearch(){
     var wrap = document.getElementById("researchList");
     wrap.innerHTML = state.research.map(function(x, i){
+      var isFirst = i === 0;
+      var isLast = i === state.research.length - 1;
       return '<div class="research-item is-removable">' +
         '<button class="admin-remove" data-remove="research" data-index="'+i+'" aria-label="Remove entry">×</button>' +
         '<div class="research-title ed" data-bind="research.'+i+'.title">'+escapeHtml(x.title)+'</div>' +
         '<div class="research-meta">' +
           '<span class="ed" data-bind="research.'+i+'.collaborators">'+escapeHtml(x.collaborators)+'</span>' +
           '<span class="status-pill ed" data-bind="research.'+i+'.status">'+escapeHtml(x.status)+'</span>' +
+          '<button class="row-move" data-move="research" data-index="'+i+'" data-dir="up" aria-label="Move entry up"'+(isFirst?' disabled':'')+'>↑</button>' +
+          '<button class="row-move" data-move="research" data-index="'+i+'" data-dir="down" aria-label="Move entry down"'+(isLast?' disabled':'')+'>↓</button>' +
         '</div>' +
       '</div>';
     }).join("");
@@ -248,10 +273,14 @@
   function renderCerts(){
     var wrap = document.getElementById("certList");
     wrap.innerHTML = state.certificates.map(function(x, i){
+      var isFirst = i === 0;
+      var isLast = i === state.certificates.length - 1;
       return '<div class="cert-item is-removable">' +
         '<span class="cert-title ed" data-bind="certificates.'+i+'.title">'+escapeHtml(x.title)+'</span>' +
         '<span style="display:flex;align-items:center;">' +
           '<span class="cert-issuer ed" data-bind="certificates.'+i+'.issuer">'+escapeHtml(x.issuer)+'</span>' +
+          '<button class="row-move" data-move="certificates" data-index="'+i+'" data-dir="up" aria-label="Move up"'+(isFirst?' disabled':'')+'>↑</button>' +
+          '<button class="row-move" data-move="certificates" data-index="'+i+'" data-dir="down" aria-label="Move down"'+(isLast?' disabled':'')+'>↓</button>' +
           '<button class="row-remove" data-remove="certificates" data-index="'+i+'" aria-label="Remove certificate">×</button>' +
         '</span>' +
       '</div>';
@@ -261,8 +290,12 @@
   function renderHonors(){
     var wrap = document.getElementById("honorsList");
     wrap.innerHTML = state.honors.map(function(x, i){
+      var isFirst = i === 0;
+      var isLast = i === state.honors.length - 1;
       return '<li class="is-removable" style="padding-right:1.4rem;">' +
         '<span class="ed" data-bind="honors.'+i+'">'+escapeHtml(x)+'</span>' +
+        '<button class="row-move" data-move="honors" data-index="'+i+'" data-dir="up" aria-label="Move up"'+(isFirst?' disabled':'')+'>↑</button>' +
+        '<button class="row-move" data-move="honors" data-index="'+i+'" data-dir="down" aria-label="Move down"'+(isLast?' disabled':'')+'>↓</button>' +
         '<button class="row-remove" data-remove="honors" data-index="'+i+'" aria-label="Remove honor">×</button>' +
       '</li>';
     }).join("");
@@ -271,6 +304,8 @@
   function renderLanguages(){
     var wrap = document.getElementById("langList");
     wrap.innerHTML = state.languages.map(function(x, i){
+      var isFirst = i === 0;
+      var isLast = i === state.languages.length - 1;
       return '<div class="lang-row is-removable">' +
         '<span class="lang-name ed" data-bind="languages.'+i+'.name">'+escapeHtml(x.name)+'</span>' +
         '<span class="lang-scores">' +
@@ -278,9 +313,50 @@
           'W <span class="ed" data-bind="languages.'+i+'.writing">'+escapeHtml(x.writing)+'</span> · ' +
           'S <span class="ed" data-bind="languages.'+i+'.speaking">'+escapeHtml(x.speaking)+'</span> · ' +
           'L <span class="ed" data-bind="languages.'+i+'.listening">'+escapeHtml(x.listening)+'</span>' +
+          '<button class="row-move" data-move="languages" data-index="'+i+'" data-dir="up" aria-label="Move up"'+(isFirst?' disabled':'')+'>↑</button>' +
+          '<button class="row-move" data-move="languages" data-index="'+i+'" data-dir="down" aria-label="Move down"'+(isLast?' disabled':'')+'>↓</button>' +
           '<button class="row-remove" data-remove="languages" data-index="'+i+'" aria-label="Remove language">×</button>' +
         '</span>' +
       '</div>';
+    }).join("");
+  }
+
+  /* ---------------------------------------------------------
+     Render: custom sections (user-added, appended after Certificates)
+     --------------------------------------------------------- */
+  function renderCustomSections(){
+    var wrap = document.getElementById("customSectionsWrap");
+    if(!wrap) return;
+    var list = state.customSections || [];
+    wrap.innerHTML = list.map(function(sec, si){
+      var isFirst = si === 0;
+      var isLast = si === list.length - 1;
+      var entries = (sec.entries || []).map(function(en, ei){
+        var eFirst = ei === 0;
+        var eLast = ei === sec.entries.length - 1;
+        return '<div class="project-card is-removable">' +
+          '<button class="admin-remove" data-remove="customSections.'+si+'.entries" data-index="'+ei+'" aria-label="Remove item">×</button>' +
+          '<div class="reorder-controls">' +
+            '<button class="reorder-btn" data-move="customSections.'+si+'.entries" data-index="'+ei+'" data-dir="up" aria-label="Move item up"'+(eFirst?' disabled':'')+'>↑</button>' +
+            '<button class="reorder-btn" data-move="customSections.'+si+'.entries" data-index="'+ei+'" data-dir="down" aria-label="Move item down"'+(eLast?' disabled':'')+'>↓</button>' +
+          '</div>' +
+          '<div class="project-title ed" data-bind="customSections.'+si+'.entries.'+ei+'.title">'+escapeHtml(en.title)+'</div>' +
+          '<div class="project-note ed" data-bind="customSections.'+si+'.entries.'+ei+'.note">'+escapeHtml(en.note)+'</div>' +
+        '</div>';
+      }).join("");
+
+      return '<section class="section custom-section is-removable">' +
+        '<div class="wrap">' +
+          '<button class="admin-remove custom-section-remove" data-remove="customSections" data-index="'+si+'" aria-label="Remove section">×</button>' +
+          '<div class="reorder-controls custom-section-reorder">' +
+            '<button class="reorder-btn" data-move="customSections" data-index="'+si+'" data-dir="up" aria-label="Move section up"'+(isFirst?' disabled':'')+'>↑</button>' +
+            '<button class="reorder-btn" data-move="customSections" data-index="'+si+'" data-dir="down" aria-label="Move section down"'+(isLast?' disabled':'')+'>↓</button>' +
+          '</div>' +
+          '<div class="section-head"><span class="section-num" aria-hidden="true">+</span><h2 class="ed" data-bind="customSections.'+si+'.title">'+escapeHtml(sec.title)+'</h2></div>' +
+          '<div class="project-grid">' + entries + '</div>' +
+          '<button class="admin-add" data-add="customSections.'+si+'.entries">+ Add item</button>' +
+        '</div>' +
+      '</section>';
     }).join("");
   }
 
@@ -299,6 +375,7 @@
     renderCerts();
     renderHonors();
     renderLanguages();
+    renderCustomSections();
     applyEditableState();
   }
 
@@ -367,14 +444,25 @@
     languages: renderLanguages
   };
 
+  // Resolves the right render function for a (possibly nested) state path —
+  // e.g. "projects" -> renderProjects(), "customSections.0.entries" -> renderCustomSections().
+  function renderForKey(key){
+    if(RENDERERS[key]){ RENDERERS[key](); return; }
+    if(key === "customSections" || key.indexOf("customSections.") === 0){ renderCustomSections(); return; }
+  }
+
   document.addEventListener("click", function(e){
     var addBtn = e.target.closest("[data-add]");
     if(addBtn && adminMode){
       var key = addBtn.getAttribute("data-add");
+      var arr = getPath(state, key);
       var blank = BLANK[key];
-      state[key].push(typeof blank === "object" ? JSON.parse(JSON.stringify(blank)) : blank);
+      if(blank === undefined && /\.entries$/.test(key)){
+        blank = { title: "New item", note: "Short description." };
+      }
+      arr.push(typeof blank === "object" ? JSON.parse(JSON.stringify(blank)) : blank);
       persist();
-      RENDERERS[key]();
+      renderForKey(key);
       applyEditableState();
       showToast("Added — click the new entry to edit it");
       return;
@@ -384,10 +472,12 @@
     if(removeBtn && adminMode){
       var rkey = removeBtn.getAttribute("data-remove");
       var idx = parseInt(removeBtn.getAttribute("data-index"), 10);
-      if(confirm("Remove this entry?")){
-        state[rkey].splice(idx, 1);
+      var confirmMsg = rkey === "customSections" ? "Remove this whole section and everything in it?" : "Remove this entry?";
+      if(confirm(confirmMsg)){
+        var rarr = getPath(state, rkey);
+        rarr.splice(idx, 1);
         persist();
-        RENDERERS[rkey]();
+        renderForKey(rkey);
         applyEditableState();
         showToast("Removed");
       }
@@ -421,13 +511,13 @@
       var mIdx = parseInt(moveBtn.getAttribute("data-index"), 10);
       var mDir = moveBtn.getAttribute("data-dir");
       var targetIdx = mDir === "up" ? mIdx - 1 : mIdx + 1;
-      var arr = state[mkey];
-      if(targetIdx >= 0 && targetIdx < arr.length){
-        var tmp = arr[mIdx];
-        arr[mIdx] = arr[targetIdx];
-        arr[targetIdx] = tmp;
+      var marr = getPath(state, mkey);
+      if(targetIdx >= 0 && targetIdx < marr.length){
+        var tmp = marr[mIdx];
+        marr[mIdx] = marr[targetIdx];
+        marr[targetIdx] = tmp;
         persist();
-        RENDERERS[mkey]();
+        renderForKey(mkey);
         applyEditableState();
       }
       return;
@@ -497,10 +587,26 @@
   document.getElementById("btnReset").addEventListener("click", function(){
     if(confirm("Reset all content back to the original CV-based defaults? This cannot be undone.")){
       state = JSON.parse(JSON.stringify(window.SITE_DEFAULT_DATA));
+      if(!state.customSections) state.customSections = [];
       persist();
       renderAll();
       showToast("Content reset to defaults");
     }
+  });
+
+  document.getElementById("btnAddSection").addEventListener("click", function(){
+    var title = window.prompt("Title for the new section (e.g. Publications, Volunteer Work, Awards):", "New Section");
+    if(title === null) return; // cancelled
+    title = title.trim() || "New Section";
+    if(!state.customSections) state.customSections = [];
+    state.customSections.push({
+      title: title,
+      entries: [{ title: "New item", note: "Short description." }]
+    });
+    persist();
+    renderCustomSections();
+    applyEditableState();
+    showToast("Section added — scroll down to edit it");
   });
 
   document.getElementById("btnExport").addEventListener("click", function(){
