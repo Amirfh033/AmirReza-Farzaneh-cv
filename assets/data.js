@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:45:59.810Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T09:47:05.842Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -135,9 +135,10 @@ window.SITE_DEFAULT_DATA = {
       ]
     },
     {
-      "category": "New category",
+      "category": "Data bases",
       "items": [
-        "New skill"
+        "PotgresSQL",
+        "Vector Databases"
       ]
     }
   ],
