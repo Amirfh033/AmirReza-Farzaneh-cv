@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:22:08.793Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:23:13.006Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -64,14 +64,14 @@ window.SITE_DEFAULT_DATA = {
   "education": [
     {
       "degree": "B.Sc. Electrical Engineering — Control",
-      "institution": "Sharif University of Technology",
+      "institution": "Sharif University of Technology , GPA = 2.6",
       "location": "Tehran, Iran",
       "start": "Sep 2022",
       "end": "Present"
     },
     {
       "degree": "Diploma, Mathematics and Physics",
-      "institution": "Ostad Shahriyar",
+      "institution": "Ostad Shahriyar , GPA = 4",
       "location": "Tabriz, East Azerbaijan, Iran",
       "start": "Sep 2022",
       "end": "Present"
