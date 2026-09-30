@@ -79,87 +79,37 @@ window.SITE_DEFAULT_DATA = {
   ],
   "skills": [
     {
-      "category": "Machine Learning & Deep Learning",
-      "items": [
-        "Supervised & Unsupervised Learning",
-        "Neural Networks",
-        "CNNs",
-        "ViTs",
-        "Transfer Learning",
-        "Representation Learning",
-        "Foundation Models",
-        "Model Evaluation & Performance Analysis",
-        "Classification & Segmentation"
-      ]
-    },
-    {
-      "category": "Medical Imaging & Computer Vision",
-      "items": [
-        "Medical Image Analysis",
-        "Medical Image Segmentation",
-        "Image Processing",
-        "Computer Vision",
-        "Ultrasound Imaging",
-        "Image Classification",
-        "Object Detection",
-        "Semantic Segmentation",
-        "Quantitative Image Analysis",
-        "Medical Imaging Evaluation Metrics"
-      ]
-    },
-    {
-      "category": "Biomedical Signal Processing",
-      "items": [
-        "Biomedical Signal Processing",
-        "EEG Signal Processing",
-        "EMG Signal Processing",
-        "Time-Series Analysis",
-        "Signal Filtering & Preprocessing",
-        "Feature Extraction",
-        "Time-Frequency Analysis",
-        "Signal Classification"
-      ]
-    },
-    {
-      "category": "Programming & Scientific Computing",
+      "category": "Programming Languages",
       "items": [
         "Python",
-        "C++",
-        "MATLAB",
+        "C / C++",
         "Java",
-        "NumPy",
-        "Pandas",
-        "SciPy",
-        "Matplotlib",
-        "Scikit-learn",
-        "PyTorch",
-        "TensorFlow",
-        "New skill"
+        "MATLAB"
       ]
     },
     {
-      "category": "Mathematics, Optimization & Control",
+      "category": "Machine Learning & AI",
       "items": [
-        "Linear Algebra",
-        "Probability & Statistics",
-        "Convex Optimization",
-        "Numerical Optimization",
-        "Control Systems",
-        "Modern Control",
-        "System Modeling",
-        "Signal & Systems Analysis"
+        "Machine Learning",
+        "Deep Learning"
       ]
     },
     {
-      "category": "Engineering & Development Tools",
+      "category": "Networking",
       "items": [
-        "Git & GitHub",
+        "CCNA",
+        "Cisco Packet Tracer",
+        "NMOS",
+        "Grafana"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "items": [
         "Linux",
+        "Git",
         "Docker",
-        "REST APIs",
-        "Verilog",
-        "Digital Logic",
-        "MATLAB/Simulink"
+        "MySQL"
       ]
     }
   ],
