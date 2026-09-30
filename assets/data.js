@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:37:27.773Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T09:38:29.774Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -238,8 +238,13 @@ window.SITE_DEFAULT_DATA = {
       "note": "Short description of the project.Design and evaluation of a custom cache replacement policy."
     },
     {
-      "title": "New project",
+      "title": "Company Knowledge RAG & AI Agent",
       "tag": "RAG & AI Agent",
+      "note": "https://github.com/Amirfh033/rag-agent-knowledge-assistant"
+    },
+    {
+      "title": "New project",
+      "tag": "Category",
       "note": "Short description of the project."
     }
   ],
