@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:43:10.800Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T09:45:59.810Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -131,7 +131,12 @@ window.SITE_DEFAULT_DATA = {
       "items": [
         "LLMs",
         "Prompt Engineering",
-        "RAG",
+        "RAG"
+      ]
+    },
+    {
+      "category": "New category",
+      "items": [
         "New skill"
       ]
     }
