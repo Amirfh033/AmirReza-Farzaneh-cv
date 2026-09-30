@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T12:22:54.252Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:21:00.536Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -300,5 +300,6 @@ window.SITE_DEFAULT_DATA = {
   ],
   "honors": [
     "Ranked 85th among 165,000 applicants, Iran National University Entrance Exam"
-  ]
+  ],
+  "customSections": []
 };
