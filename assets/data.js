@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T10:02:56.643Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T10:04:06.345Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -93,7 +93,8 @@ window.SITE_DEFAULT_DATA = {
       "items": [
         "Machine Learning",
         "Deep Learning",
-        "New skill"
+        "LLMs",
+        "RAG"
       ]
     },
     {
@@ -119,14 +120,6 @@ window.SITE_DEFAULT_DATA = {
         "n8n",
         "REST APIs",
         "Webhooks"
-      ]
-    },
-    {
-      "category": "AI / LLM",
-      "items": [
-        "LLMs",
-        "Prompt Engineering",
-        "RAG"
       ]
     },
     {
