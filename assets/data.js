@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:38:29.774Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T09:39:36.307Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -243,8 +243,8 @@ window.SITE_DEFAULT_DATA = {
       "note": "https://github.com/Amirfh033/rag-agent-knowledge-assistant"
     },
     {
-      "title": "New project",
-      "tag": "Category",
+      "title": "Customer Registration & Classification Automation",
+      "tag": "n8n",
       "note": "Short description of the project."
     }
   ],
