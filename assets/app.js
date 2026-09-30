@@ -174,8 +174,14 @@
           '<button class="chip-remove" data-removechip data-cat="'+ci+'" data-idx="'+ii+'" aria-label="Remove skill">×</button>' +
         '</span>';
       }).join("");
+      var isFirst = ci === 0;
+      var isLast = ci === state.skills.length - 1;
       return '<div class="skill-group is-removable">' +
         '<button class="admin-remove" data-remove="skills" data-index="'+ci+'" aria-label="Remove category">×</button>' +
+        '<div class="reorder-controls">' +
+          '<button class="reorder-btn" data-move="skills" data-index="'+ci+'" data-dir="up" aria-label="Move category up"'+(isFirst?' disabled':'')+'>↑</button>' +
+          '<button class="reorder-btn" data-move="skills" data-index="'+ci+'" data-dir="down" aria-label="Move category down"'+(isLast?' disabled':'')+'>↓</button>' +
+        '</div>' +
         '<div class="skill-cat ed" data-bind="skills.'+ci+'.category">'+escapeHtml(cat.category)+'</div>' +
         '<div class="chip-row">' + chips +
           '<button class="admin-add-chip" data-addchip data-cat="'+ci+'">+ skill</button>' +
@@ -204,8 +210,14 @@
   function renderProjects(){
     var wrap = document.getElementById("projectsList");
     wrap.innerHTML = state.projects.map(function(x, i){
+      var isFirst = i === 0;
+      var isLast = i === state.projects.length - 1;
       return '<div class="project-card is-removable">' +
         '<button class="admin-remove" data-remove="projects" data-index="'+i+'" aria-label="Remove project">×</button>' +
+        '<div class="reorder-controls">' +
+          '<button class="reorder-btn" data-move="projects" data-index="'+i+'" data-dir="up" aria-label="Move project up"'+(isFirst?' disabled':'')+'>↑</button>' +
+          '<button class="reorder-btn" data-move="projects" data-index="'+i+'" data-dir="down" aria-label="Move project down"'+(isLast?' disabled':'')+'>↓</button>' +
+        '</div>' +
         '<span class="project-tag ed" data-bind="projects.'+i+'.tag">'+escapeHtml(x.tag)+'</span>' +
         '<div class="project-title ed" data-bind="projects.'+i+'.title">'+escapeHtml(x.title)+'</div>' +
         '<div class="project-note ed" data-bind="projects.'+i+'.note">'+escapeHtml(x.note)+'</div>' +
@@ -400,6 +412,24 @@
       persist();
       renderSkills();
       applyEditableState();
+      return;
+    }
+
+    var moveBtn = e.target.closest("[data-move]");
+    if(moveBtn && adminMode && !moveBtn.disabled){
+      var mkey = moveBtn.getAttribute("data-move");
+      var mIdx = parseInt(moveBtn.getAttribute("data-index"), 10);
+      var mDir = moveBtn.getAttribute("data-dir");
+      var targetIdx = mDir === "up" ? mIdx - 1 : mIdx + 1;
+      var arr = state[mkey];
+      if(targetIdx >= 0 && targetIdx < arr.length){
+        var tmp = arr[mIdx];
+        arr[mIdx] = arr[targetIdx];
+        arr[targetIdx] = tmp;
+        persist();
+        RENDERERS[mkey]();
+        applyEditableState();
+      }
       return;
     }
   });
