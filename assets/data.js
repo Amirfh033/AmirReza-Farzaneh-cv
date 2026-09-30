@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:58:44.297Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T10:00:46.210Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -85,7 +85,7 @@ window.SITE_DEFAULT_DATA = {
         "C / C++",
         "Java",
         "MATLAB",
-        "New skill"
+        "LaTex"
       ]
     },
     {
