@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:55:49.154Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:57:01.613Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -79,37 +79,74 @@ window.SITE_DEFAULT_DATA = {
   ],
   "skills": [
     {
-      "category": "Programming Languages",
+      "category": "Machine Learning & Deep Learning",
+      "items": [
+        "Supervised & Unsupervised Learning",
+        "Neural Networks",
+        "CNNs",
+        "ViTs",
+        "Transfer Learning",
+        "Representation Learning",
+        "Foundation Models",
+        "Model Evaluation & Performance Analysis",
+        "Classification & Segmentation"
+      ]
+    },
+    {
+      "category": "Medical Imaging & Computer Vision",
+      "items": [
+        "Medical Image Analysis",
+        "Medical Image Segmentation",
+        "Image Processing",
+        "Computer Vision",
+        "Ultrasound Imaging",
+        "Image Classification",
+        "Object Detection",
+        "Semantic Segmentation",
+        "Quantitative Image Analysis",
+        "Medical Imaging Evaluation Metrics"
+      ]
+    },
+    {
+      "category": "Biomedical Signal Processing",
+      "items": [
+        "Biomedical Signal Processing",
+        "EEG Signal Processing",
+        "EMG Signal Processing",
+        "Time-Series Analysis",
+        "Signal Filtering & Preprocessing",
+        "Feature Extraction",
+        "Time-Frequency Analysis",
+        "Signal Classification"
+      ]
+    },
+    {
+      "category": "Programming & Scientific Computing",
       "items": [
         "Python",
-        "C / C++",
+        "C++",
+        "MATLAB",
         "Java",
-        "MATLAB"
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "Matplotlib",
+        "Scikit-learn",
+        "PyTorch",
+        "TensorFlow",
+        "Keras"
       ]
     },
     {
-      "category": "Machine Learning & AI",
+      "category": "Engineering & Development Tools",
       "items": [
-        "Machine Learning",
-        "Deep Learning"
-      ]
-    },
-    {
-      "category": "Networking",
-      "items": [
-        "CCNA",
-        "Cisco Packet Tracer",
-        "NMOS",
-        "Grafana"
-      ]
-    },
-    {
-      "category": "Tools & Platforms",
-      "items": [
+        "Git & GitHub",
         "Linux",
-        "Git",
         "Docker",
-        "MySQL"
+        "REST APIs",
+        "Verilog",
+        "Digital Logic",
+        "MATLAB/Simulink"
       ]
     }
   ],
