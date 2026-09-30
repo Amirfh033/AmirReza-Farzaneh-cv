@@ -79,55 +79,88 @@ window.SITE_DEFAULT_DATA = {
   ],
   "skills": [
     {
-      "category": "Machine learning & AI",
+      "category": "Machine Learning & Deep Learning",
       "items": [
-        "Python",
-        "PyTorch",
-        "TensorFlow",
-        "Scikit-learn",
-        "New skill"
+        "Machine Learning",
+        "Deep Learning",
+        "Supervised & Unsupervised Learning",
+        "Neural Networks",
+        "Convolutional Neural Networks (CNNs)",
+        "Vision Transformers (ViTs)",
+        "Transfer Learning",
+        "Representation Learning",
+        "Foundation Models",
+        "Model Evaluation & Performance Analysis",
+        "Classification & Segmentation"
       ]
     },
     {
-      "category": "Programming",
+      "category": "Medical Imaging & Computer Vision",
+      "items": [
+        "Medical Image Analysis",
+        "Medical Image Segmentation",
+        "Image Processing",
+        "Computer Vision",
+        "Ultrasound Imaging",
+        "Image Classification",
+        "Object Detection",
+        "Semantic Segmentation",
+        "Quantitative Image Analysis",
+        "Medical Imaging Evaluation Metrics"
+      ]
+    },
+    {
+      "category": "Biomedical Signal Processing",
+      "items": [
+        "Biomedical Signal Processing",
+        "EEG Signal Processing",
+        "EMG Signal Processing",
+        "Time-Series Analysis",
+        "Signal Filtering & Preprocessing",
+        "Feature Extraction",
+        "Time-Frequency Analysis",
+        "Signal Classification"
+      ]
+    },
+    {
+      "category": "Programming & Scientific Computing",
       "items": [
         "Python",
-        "C / C++",
-        "Java",
+        "C++",
         "MATLAB",
-        "LaTex"
+        "Java",
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "Matplotlib",
+        "Scikit-learn",
+        "PyTorch",
+        "TensorFlow"
       ]
     },
     {
-      "category": "Networking",
+      "category": "Mathematics, Optimization & Control",
       "items": [
-        "CCNA",
-        "Cisco Packet Tracer",
-        "NMOS"
+        "Linear Algebra",
+        "Probability & Statistics",
+        "Convex Optimization",
+        "Numerical Optimization",
+        "Control Systems",
+        "Modern Control",
+        "System Modeling",
+        "Signal & Systems Analysis"
       ]
     },
     {
-      "category": "Tools & platforms",
+      "category": "Engineering & Development Tools",
       "items": [
+        "Git & GitHub",
         "Linux",
-        "Git",
         "Docker",
-        "MySQL"
-      ]
-    },
-    {
-      "category": "Automation & Backend",
-      "items": [
-        "n8n",
         "REST APIs",
-        "Webhooks"
-      ]
-    },
-    {
-      "category": "Data bases",
-      "items": [
-        "PostgreSQL",
-        "Vector Databases"
+        "Verilog",
+        "Digital Logic",
+        "MATLAB/Simulink"
       ]
     }
   ],
