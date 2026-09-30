@@ -1,11 +1,11 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:58:03.865Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T14:00:10.498Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
     "title": "Electrical Engineering Student, Control | biomedical AI & Medical imaging — Sharif University of Technology",
     "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Verilog, Docker and networking tooling. Research interests: Medical Image Analysis, Deep Learning, Foundation Models, Biomedical Signal Processing, Neurotechnology",
     "location": "Tehran, Iran",
-    "email": "amirfh033@gamil.com",
+    "email": "amirfh033@gmail.com",
     "phone": "+98 991 333 9615",
     "github": "Amirfh033",
     "photo": "assets/profile.png"
@@ -224,11 +224,6 @@ window.SITE_DEFAULT_DATA = {
       "note": "Spectral entropy-based features, implemented in MATLAB."
     },
     {
-      "title": "Real-Time Revenue Analytics Pipeline",
-      "tag": "Data engineering",
-      "note": "Apache Spark Structured Streaming with MinIO.https://github.com/Amirfh033/ref_sms_streaming"
-    },
-    {
       "title": "Intelligent Product Taxonomy Prediction",
       "tag": "NLP",
       "note": "NLP and deep neural networks for taxonomy prediction."
@@ -239,9 +234,24 @@ window.SITE_DEFAULT_DATA = {
       "note": "Classical ML models on airline survey data."
     },
     {
+      "title": "Company Knowledge RAG & AI Agent",
+      "tag": "RAG & AI Agent",
+      "note": "https://github.com/Amirfh033/rag-agent-knowledge-assistant"
+    },
+    {
+      "title": "Customer Registration & Classification Automation",
+      "tag": "n8n",
+      "note": "https://github.com/Amirfh033/Customer-registration-AI-classification-automation-n8n-"
+    },
+    {
       "title": "Scalable Country Code Lookup Service",
       "tag": "Backend & infra",
       "note": "ShorFastAPI, PostgreSQL, Redis and Kafka, containerized with Docker.t description of the project.https://github.com/Amirfh033/Feri"
+    },
+    {
+      "title": "Real-Time Revenue Analytics Pipeline",
+      "tag": "Data engineering",
+      "note": "Apache Spark Structured Streaming with MinIO.https://github.com/Amirfh033/ref_sms_streaming"
     },
     {
       "title": "QAM Digital Modulation Simulation",
@@ -262,16 +272,6 @@ window.SITE_DEFAULT_DATA = {
       "title": "Jungle Marble Blast",
       "tag": "Game development",
       "note": "A game built in C++."
-    },
-    {
-      "title": "Customer Registration & Classification Automation",
-      "tag": "n8n",
-      "note": "https://github.com/Amirfh033/Customer-registration-AI-classification-automation-n8n-"
-    },
-    {
-      "title": "Company Knowledge RAG & AI Agent",
-      "tag": "RAG & AI Agent",
-      "note": "https://github.com/Amirfh033/rag-agent-knowledge-assistant"
     },
     {
       "title": "Cache Replacement Policy in ChampSim",
