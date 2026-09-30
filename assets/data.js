@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:48:11.649Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T09:54:37.131Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -109,13 +109,6 @@ window.SITE_DEFAULT_DATA = {
         "Git",
         "Docker",
         "MySQL"
-      ]
-    },
-    {
-      "category": "Additional",
-      "items": [
-        "Verilog",
-        "LaTeX"
       ]
     },
     {
