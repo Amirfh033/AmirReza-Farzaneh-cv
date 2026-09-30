@@ -1,9 +1,9 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T10:45:16.854Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T12:12:56.604Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
     "title": "Electrical Engineering Student, Control — Sharif University of Technology",
-    "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Verilog, Docker and networking tooling.",
+    "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Verilog, Docker and networking tooling. Research interests: Medical Image Analysis, Deep Learning, Foundation Models, Biomedical Signal Processing, Neurotechnology",
     "location": "Tehran, Iran",
     "email": "amirfh033@gamil.com",
     "phone": "+98 991 333 9615",
