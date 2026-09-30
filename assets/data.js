@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:57:01.613Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:58:03.865Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -209,9 +209,19 @@ window.SITE_DEFAULT_DATA = {
       "note": "State-feedback controller and observer with servo disturbance rejection and anti-windup compensation.https://github.com/Amirfh033/SEIR-Fractional-Epidemic-Model"
     },
     {
+      "title": "EMG Measurement & Signal Analysis",
+      "tag": "Signal processing",
+      "note": "Electromyography measurement and analysis."
+    },
+    {
       "title": "Hidden Markov Anomaly Detection",
       "tag": "Machine learning",
       "note": "Sequence anomaly detection using HMMs.https://github.com/Amirfh033/hmad_project"
+    },
+    {
+      "title": "Epileptic Seizure Prediction from EEG",
+      "tag": "Signal processing",
+      "note": "Spectral entropy-based features, implemented in MATLAB."
     },
     {
       "title": "Real-Time Revenue Analytics Pipeline",
@@ -227,11 +237,6 @@ window.SITE_DEFAULT_DATA = {
       "title": "Airline Passenger Satisfaction Prediction",
       "tag": "Machine learning",
       "note": "Classical ML models on airline survey data."
-    },
-    {
-      "title": "Epileptic Seizure Prediction from EEG",
-      "tag": "Signal processing",
-      "note": "Spectral entropy-based features, implemented in MATLAB."
     },
     {
       "title": "Scalable Country Code Lookup Service",
@@ -252,11 +257,6 @@ window.SITE_DEFAULT_DATA = {
       "title": "Hotel Reservation & Travel Satisfaction Prediction",
       "tag": "Machine learning",
       "note": "Policy program for predicting reservation and travel satisfaction."
-    },
-    {
-      "title": "EMG Measurement & Signal Analysis",
-      "tag": "Signal processing",
-      "note": "Electromyography measurement and analysis."
     },
     {
       "title": "Jungle Marble Blast",
