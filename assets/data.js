@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:48:20.949Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:51:42.452Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -81,8 +81,6 @@ window.SITE_DEFAULT_DATA = {
     {
       "category": "Machine Learning & Deep Learning",
       "items": [
-        "Machine Learning",
-        "Deep Learning",
         "Supervised & Unsupervised Learning",
         "Neural Networks",
         "Convolutional Neural Networks (CNNs)",
