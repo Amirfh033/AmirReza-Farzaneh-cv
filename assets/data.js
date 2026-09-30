@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:23:13.006Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:25:10.523Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -79,6 +79,15 @@ window.SITE_DEFAULT_DATA = {
   ],
   "skills": [
     {
+      "category": "Machine learning & AI",
+      "items": [
+        "Machine Learning",
+        "Deep Learning",
+        "LLMs",
+        "RAG"
+      ]
+    },
+    {
       "category": "Programming",
       "items": [
         "Python",
@@ -86,15 +95,6 @@ window.SITE_DEFAULT_DATA = {
         "Java",
         "MATLAB",
         "LaTex"
-      ]
-    },
-    {
-      "category": "Machine learning & AI",
-      "items": [
-        "Machine Learning",
-        "Deep Learning",
-        "LLMs",
-        "RAG"
       ]
     },
     {
