@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T09:39:36.307Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T09:41:02.526Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -116,6 +116,13 @@ window.SITE_DEFAULT_DATA = {
       "items": [
         "Verilog",
         "LaTeX"
+      ]
+    },
+    {
+      "category": "Automation & Backend",
+      "items": [
+        "n8n",
+        "New skill"
       ]
     }
   ],
@@ -245,7 +252,7 @@ window.SITE_DEFAULT_DATA = {
     {
       "title": "Customer Registration & Classification Automation",
       "tag": "n8n",
-      "note": "Short description of the project."
+      "note": "https://github.com/Amirfh033/Customer-registration-AI-classification-automation-n8n-"
     }
   ],
   "research": [
