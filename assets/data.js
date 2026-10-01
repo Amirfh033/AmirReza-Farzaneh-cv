@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-01T07:32:42.314Z */
+/* Site content — last pushed from the admin panel on 2026-10-01T07:34:01.411Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -106,7 +106,8 @@ window.SITE_DEFAULT_DATA = {
         "Digital Logic",
         "MATLAB/Simulink",
         "n8n",
-        "New skill"
+        "RAG",
+        "PostgreSQL"
       ]
     },
     {
