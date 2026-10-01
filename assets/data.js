@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-01T07:31:40.855Z */
+/* Site content — last pushed from the admin panel on 2026-10-01T07:32:42.314Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -104,7 +104,9 @@ window.SITE_DEFAULT_DATA = {
         "REST APIs",
         "Verilog",
         "Digital Logic",
-        "MATLAB/Simulink"
+        "MATLAB/Simulink",
+        "n8n",
+        "New skill"
       ]
     },
     {
@@ -139,7 +141,6 @@ window.SITE_DEFAULT_DATA = {
     {
       "category": "Biomedical Signal Processing",
       "items": [
-        "Biomedical Signal Processing",
         "EEG Signal Processing",
         "EMG Signal Processing",
         "Time-Series Analysis",
