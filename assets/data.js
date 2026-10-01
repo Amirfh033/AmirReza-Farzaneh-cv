@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-01T07:34:01.411Z */
+/* Site content — last pushed from the admin panel on 2026-10-01T07:36:19.477Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -300,15 +300,15 @@ window.SITE_DEFAULT_DATA = {
   ],
   "certificates": [
     {
+      "title": "Deep Learning",
+      "issuer": "Quera"
+    },
+    {
       "title": "Advanced Python Programming",
       "issuer": "Quera"
     },
     {
       "title": "Java Programming",
-      "issuer": "Quera"
-    },
-    {
-      "title": "Deep Learning",
       "issuer": "Quera"
     },
     {
