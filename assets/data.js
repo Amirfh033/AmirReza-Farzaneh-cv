@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-01T07:25:10.055Z */
+/* Site content — last pushed from the admin panel on 2026-10-01T07:31:40.855Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -79,6 +79,35 @@ window.SITE_DEFAULT_DATA = {
   ],
   "skills": [
     {
+      "category": "Programming & Scientific Computing",
+      "items": [
+        "Python",
+        "C++",
+        "MATLAB",
+        "Java",
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "Matplotlib",
+        "Scikit-learn",
+        "PyTorch",
+        "TensorFlow",
+        "Keras"
+      ]
+    },
+    {
+      "category": "Engineering & Development Tools",
+      "items": [
+        "Git & GitHub",
+        "Linux",
+        "Docker",
+        "REST APIs",
+        "Verilog",
+        "Digital Logic",
+        "MATLAB/Simulink"
+      ]
+    },
+    {
       "category": "Machine Learning & Deep Learning",
       "items": [
         "Supervised & Unsupervised Learning",
@@ -118,35 +147,6 @@ window.SITE_DEFAULT_DATA = {
         "Feature Extraction",
         "Time-Frequency Analysis",
         "Signal Classification"
-      ]
-    },
-    {
-      "category": "Programming & Scientific Computing",
-      "items": [
-        "Python",
-        "C++",
-        "MATLAB",
-        "Java",
-        "NumPy",
-        "Pandas",
-        "SciPy",
-        "Matplotlib",
-        "Scikit-learn",
-        "PyTorch",
-        "TensorFlow",
-        "Keras"
-      ]
-    },
-    {
-      "category": "Engineering & Development Tools",
-      "items": [
-        "Git & GitHub",
-        "Linux",
-        "Docker",
-        "REST APIs",
-        "Verilog",
-        "Digital Logic",
-        "MATLAB/Simulink"
       ]
     }
   ],
