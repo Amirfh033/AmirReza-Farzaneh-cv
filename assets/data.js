@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-01T07:36:19.477Z */
+/* Site content — last pushed from the admin panel on 2026-10-23T15:29:55.419Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -296,6 +296,11 @@ window.SITE_DEFAULT_DATA = {
       "title": "EEG Seizure Prediction — Reproduction of a Published Study",
       "collaborators": "Independent Research Project",
       "status": "2025 – 2026"
+    },
+    {
+      "title": "New research title",
+      "collaborators": "Collaborators",
+      "status": "In progress"
     }
   ],
   "certificates": [
