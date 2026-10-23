@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-23T15:29:55.419Z */
+/* Site content — last pushed from the admin panel on 2026-10-23T15:31:04.521Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -293,14 +293,14 @@ window.SITE_DEFAULT_DATA = {
       "status": "In progress"
     },
     {
+      "title": "USDFM: An Ultrasound Speckle-Diffusion Foundation Model",
+      "collaborators": "Independent Research",
+      "status": "In progress"
+    },
+    {
       "title": "EEG Seizure Prediction — Reproduction of a Published Study",
       "collaborators": "Independent Research Project",
       "status": "2025 – 2026"
-    },
-    {
-      "title": "New research title",
-      "collaborators": "Collaborators",
-      "status": "In progress"
     }
   ],
   "certificates": [
