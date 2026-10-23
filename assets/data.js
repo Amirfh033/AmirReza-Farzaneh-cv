@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-23T15:31:04.521Z */
+/* Site content — last pushed from the admin panel on 2026-10-23T15:33:21.919Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -40,11 +40,11 @@ window.SITE_DEFAULT_DATA = {
       "end": "Oct 2024"
     },
     {
-      "role": "2G / 3G Optimization",
+      "role": "Core Engineering",
       "org": "Irancell Labs",
       "location": "Tehran, Iran",
-      "start": "Jan 2026",
-      "end": "Present"
+      "start": "Sep 2026",
+      "end": "Nov 2025"
     },
     {
       "role": "BSS Engineering",
@@ -54,11 +54,18 @@ window.SITE_DEFAULT_DATA = {
       "end": "Jan 2026"
     },
     {
-      "role": "Core Engineering",
+      "role": "2G / 3G Optimization",
       "org": "Irancell Labs",
       "location": "Tehran, Iran",
-      "start": "Sep 2025",
-      "end": "Nov 2025"
+      "start": "Jan 2026",
+      "end": "march 2026"
+    },
+    {
+      "role": "AI Developer",
+      "org": "Raz company",
+      "location": "Tehran, Iran",
+      "start": "Sep 2026",
+      "end": "Present"
     }
   ],
   "education": [
